@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/proximity"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="20dp"
+        android:height="40dp"
+        android:text="proximity"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/light"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="70dp"
+        android:height="40dp"
+        android:text="light"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="120dp"
+        android:height="40dp"
+        android:text="pressure"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/pitch"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="170dp"
+        android:height="40dp"
+        android:text="pitch"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/yaw"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="220dp"
+        android:height="40dp"
+        android:text="yaw"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="270dp"
+        android:height="40dp"
+        android:text="roll"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/x"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="320dp"
+        android:height="40dp"
+        android:text="x"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/y"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="370dp"
+        android:height="40dp"
+        android:text="y"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/z"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="420dp"
+        android:height="40dp"
+        android:text="z"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="470dp"
+        android:height="40dp"
+        android:text="latitude"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="520dp"
+        android:height="40dp"
+        android:text="longitude"
+        android:textAlignment="center" />
+
+    <Switch
+        android:id="@+id/permissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginTop="620dp"
+        android:height="50dp"
+        android:text="permissions"
+        android:textAlignment="center" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:height="50dp"
+        android:text="start service"
+        android:id="@+id/startservice"
+        android:textAlignment="center" />
+
+</RelativeLayout>
